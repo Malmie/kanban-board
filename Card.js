@@ -23,6 +23,6 @@ function Card(description) {
 }
 Card.prototype = {
 	removeCard: function() {
-	  this.element.remove();
+		this.element.remove();
 	}
 }
